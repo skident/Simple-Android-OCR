@@ -1,0 +1,476 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Simple-Android-OCR:
+* .gitignore
+* README.md
+* proguard.cfg
+From tess-two:
+* .gitignore
+* COPYING
+* build.gradle
+* build.xml
+* build\
+* build\generated\
+* build\generated\source\
+* build\generated\source\buildConfig\
+* build\generated\source\buildConfig\androidTest\
+* build\generated\source\buildConfig\androidTest\debug\
+* build\generated\source\buildConfig\androidTest\debug\com\
+* build\generated\source\buildConfig\androidTest\debug\com\googlecode\
+* build\generated\source\buildConfig\androidTest\debug\com\googlecode\tesseract\
+* build\generated\source\buildConfig\androidTest\debug\com\googlecode\tesseract\android\
+* build\generated\source\buildConfig\androidTest\debug\com\googlecode\tesseract\android\test\
+* build\generated\source\buildConfig\androidTest\debug\com\googlecode\tesseract\android\test\BuildConfig.java
+* build\generated\source\buildConfig\debug\
+* build\generated\source\buildConfig\debug\com\
+* build\generated\source\buildConfig\debug\com\googlecode\
+* build\generated\source\buildConfig\debug\com\googlecode\tesseract\
+* build\generated\source\buildConfig\debug\com\googlecode\tesseract\android\
+* build\generated\source\buildConfig\debug\com\googlecode\tesseract\android\BuildConfig.java
+* build\generated\source\buildConfig\release\
+* build\generated\source\buildConfig\release\com\
+* build\generated\source\buildConfig\release\com\googlecode\
+* build\generated\source\buildConfig\release\com\googlecode\tesseract\
+* build\generated\source\buildConfig\release\com\googlecode\tesseract\android\
+* build\generated\source\buildConfig\release\com\googlecode\tesseract\android\BuildConfig.java
+* build\intermediates\
+* build\intermediates\bundles\
+* build\intermediates\bundles\debug\
+* build\intermediates\bundles\debug\AndroidManifest.xml
+* build\intermediates\bundles\debug\aapt\
+* build\intermediates\bundles\debug\aapt\AndroidManifest.xml
+* build\intermediates\bundles\debug\classes.jar
+* build\intermediates\bundles\debug\jni\
+* build\intermediates\bundles\debug\jni\arm64-v8a\
+* build\intermediates\bundles\debug\jni\arm64-v8a\libjpgt.so
+* build\intermediates\bundles\debug\jni\arm64-v8a\liblept.so
+* build\intermediates\bundles\debug\jni\arm64-v8a\libpngt.so
+* build\intermediates\bundles\debug\jni\arm64-v8a\libtess.so
+* build\intermediates\bundles\debug\jni\armeabi-v7a\
+* build\intermediates\bundles\debug\jni\armeabi-v7a\libjpgt.so
+* build\intermediates\bundles\debug\jni\armeabi-v7a\liblept.so
+* build\intermediates\bundles\debug\jni\armeabi-v7a\libpngt.so
+* build\intermediates\bundles\debug\jni\armeabi-v7a\libtess.so
+* build\intermediates\bundles\debug\jni\armeabi\
+* build\intermediates\bundles\debug\jni\armeabi\libjpgt.so
+* build\intermediates\bundles\debug\jni\armeabi\liblept.so
+* build\intermediates\bundles\debug\jni\armeabi\libpngt.so
+* build\intermediates\bundles\debug\jni\armeabi\libtess.so
+* build\intermediates\bundles\debug\jni\mips64\
+* build\intermediates\bundles\debug\jni\mips64\libjpgt.so
+* build\intermediates\bundles\debug\jni\mips64\liblept.so
+* build\intermediates\bundles\debug\jni\mips64\libpngt.so
+* build\intermediates\bundles\debug\jni\mips64\libtess.so
+* build\intermediates\bundles\debug\jni\mips\
+* build\intermediates\bundles\debug\jni\mips\libjpgt.so
+* build\intermediates\bundles\debug\jni\mips\liblept.so
+* build\intermediates\bundles\debug\jni\mips\libpngt.so
+* build\intermediates\bundles\debug\jni\mips\libtess.so
+* build\intermediates\bundles\debug\jni\x86\
+* build\intermediates\bundles\debug\jni\x86\libjpgt.so
+* build\intermediates\bundles\debug\jni\x86\liblept.so
+* build\intermediates\bundles\debug\jni\x86\libpngt.so
+* build\intermediates\bundles\debug\jni\x86\libtess.so
+* build\intermediates\bundles\debug\jni\x86_64\
+* build\intermediates\bundles\debug\jni\x86_64\libjpgt.so
+* build\intermediates\bundles\debug\jni\x86_64\liblept.so
+* build\intermediates\bundles\debug\jni\x86_64\libpngt.so
+* build\intermediates\bundles\debug\jni\x86_64\libtess.so
+* build\intermediates\bundles\release\
+* build\intermediates\bundles\release\AndroidManifest.xml
+* build\intermediates\bundles\release\aapt\
+* build\intermediates\bundles\release\aapt\AndroidManifest.xml
+* build\intermediates\bundles\release\classes.jar
+* build\intermediates\bundles\release\jni\
+* build\intermediates\bundles\release\jni\arm64-v8a\
+* build\intermediates\bundles\release\jni\arm64-v8a\libjpgt.so
+* build\intermediates\bundles\release\jni\arm64-v8a\liblept.so
+* build\intermediates\bundles\release\jni\arm64-v8a\libpngt.so
+* build\intermediates\bundles\release\jni\arm64-v8a\libtess.so
+* build\intermediates\bundles\release\jni\armeabi-v7a\
+* build\intermediates\bundles\release\jni\armeabi-v7a\libjpgt.so
+* build\intermediates\bundles\release\jni\armeabi-v7a\liblept.so
+* build\intermediates\bundles\release\jni\armeabi-v7a\libpngt.so
+* build\intermediates\bundles\release\jni\armeabi-v7a\libtess.so
+* build\intermediates\bundles\release\jni\armeabi\
+* build\intermediates\bundles\release\jni\armeabi\libjpgt.so
+* build\intermediates\bundles\release\jni\armeabi\liblept.so
+* build\intermediates\bundles\release\jni\armeabi\libpngt.so
+* build\intermediates\bundles\release\jni\armeabi\libtess.so
+* build\intermediates\bundles\release\jni\mips64\
+* build\intermediates\bundles\release\jni\mips64\libjpgt.so
+* build\intermediates\bundles\release\jni\mips64\liblept.so
+* build\intermediates\bundles\release\jni\mips64\libpngt.so
+* build\intermediates\bundles\release\jni\mips64\libtess.so
+* build\intermediates\bundles\release\jni\mips\
+* build\intermediates\bundles\release\jni\mips\libjpgt.so
+* build\intermediates\bundles\release\jni\mips\liblept.so
+* build\intermediates\bundles\release\jni\mips\libpngt.so
+* build\intermediates\bundles\release\jni\mips\libtess.so
+* build\intermediates\bundles\release\jni\x86\
+* build\intermediates\bundles\release\jni\x86\libjpgt.so
+* build\intermediates\bundles\release\jni\x86\liblept.so
+* build\intermediates\bundles\release\jni\x86\libpngt.so
+* build\intermediates\bundles\release\jni\x86\libtess.so
+* build\intermediates\bundles\release\jni\x86_64\
+* build\intermediates\bundles\release\jni\x86_64\libjpgt.so
+* build\intermediates\bundles\release\jni\x86_64\liblept.so
+* build\intermediates\bundles\release\jni\x86_64\libpngt.so
+* build\intermediates\bundles\release\jni\x86_64\libtess.so
+* build\intermediates\classes\
+* build\intermediates\classes\debug\
+* build\intermediates\classes\debug\com\
+* build\intermediates\classes\debug\com\googlecode\
+* build\intermediates\classes\debug\com\googlecode\leptonica\
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\AdaptiveMap.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Binarize.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Box.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Boxa.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Clip.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Constants.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Convert.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Edge.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Enhance.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\GrayQuant.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\JpegIO.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\MorphApp.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Pix.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Pixa$1.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Pixa$PixIterator.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Pixa.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\ReadFile.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Rotate.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Scale$1.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Scale$ScaleType.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Scale.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\Skew.class
+* build\intermediates\classes\debug\com\googlecode\leptonica\android\WriteFile.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\BuildConfig.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\PageIterator.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\ResultIterator.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\TessBaseAPI$PageIteratorLevel.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\TessBaseAPI$PageSegMode.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\TessBaseAPI$ProgressNotifier.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\TessBaseAPI$ProgressValues.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\TessBaseAPI.class
+* build\intermediates\classes\debug\com\googlecode\tesseract\android\TessPdfRenderer.class
+* build\intermediates\classes\release\
+* build\intermediates\classes\release\com\
+* build\intermediates\classes\release\com\googlecode\
+* build\intermediates\classes\release\com\googlecode\leptonica\
+* build\intermediates\classes\release\com\googlecode\leptonica\android\
+* build\intermediates\classes\release\com\googlecode\leptonica\android\AdaptiveMap.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Binarize.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Box.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Boxa.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Clip.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Constants.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Convert.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Edge.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Enhance.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\GrayQuant.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\JpegIO.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\MorphApp.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Pix.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Pixa$1.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Pixa$PixIterator.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Pixa.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\ReadFile.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Rotate.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Scale$1.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Scale$ScaleType.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Scale.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\Skew.class
+* build\intermediates\classes\release\com\googlecode\leptonica\android\WriteFile.class
+* build\intermediates\classes\release\com\googlecode\tesseract\
+* build\intermediates\classes\release\com\googlecode\tesseract\android\
+* build\intermediates\classes\release\com\googlecode\tesseract\android\BuildConfig.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\PageIterator.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\ResultIterator.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\TessBaseAPI$PageIteratorLevel.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\TessBaseAPI$PageSegMode.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\TessBaseAPI$ProgressNotifier.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\TessBaseAPI$ProgressValues.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\TessBaseAPI.class
+* build\intermediates\classes\release\com\googlecode\tesseract\android\TessPdfRenderer.class
+* build\intermediates\incremental-safeguard\
+* build\intermediates\incremental-safeguard\debug\
+* build\intermediates\incremental-safeguard\debug\tag.txt
+* build\intermediates\incremental-safeguard\release\
+* build\intermediates\incremental-safeguard\release\tag.txt
+* build\intermediates\incremental\
+* build\intermediates\incremental\compileDebugAidl\
+* build\intermediates\incremental\compileDebugAidl\dependency.store
+* build\intermediates\incremental\compileDebugAndroidTestAidl\
+* build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store
+* build\intermediates\incremental\compileReleaseAidl\
+* build\intermediates\incremental\compileReleaseAidl\dependency.store
+* build\intermediates\incremental\mergeDebugAndroidTestAssets\
+* build\intermediates\incremental\mergeDebugAndroidTestAssets\merger.xml
+* build\intermediates\incremental\mergeDebugAndroidTestResources\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merger.xml
+* build\intermediates\incremental\mergeDebugAndroidTestShaders\
+* build\intermediates\incremental\mergeDebugAndroidTestShaders\merger.xml
+* build\intermediates\incremental\mergeDebugAssets\
+* build\intermediates\incremental\mergeDebugAssets\merger.xml
+* build\intermediates\incremental\mergeDebugJniLibFolders\
+* build\intermediates\incremental\mergeDebugJniLibFolders\merger.xml
+* build\intermediates\incremental\mergeDebugShaders\
+* build\intermediates\incremental\mergeDebugShaders\merger.xml
+* build\intermediates\incremental\mergeReleaseAssets\
+* build\intermediates\incremental\mergeReleaseAssets\merger.xml
+* build\intermediates\incremental\mergeReleaseJniLibFolders\
+* build\intermediates\incremental\mergeReleaseJniLibFolders\merger.xml
+* build\intermediates\incremental\mergeReleaseShaders\
+* build\intermediates\incremental\mergeReleaseShaders\merger.xml
+* build\intermediates\incremental\packageDebugResources\
+* build\intermediates\incremental\packageDebugResources\merger.xml
+* build\intermediates\incremental\packageReleaseResources\
+* build\intermediates\incremental\packageReleaseResources\merger.xml
+* build\intermediates\jniLibs\
+* build\intermediates\jniLibs\debug\
+* build\intermediates\jniLibs\debug\arm64-v8a\
+* build\intermediates\jniLibs\debug\arm64-v8a\libjpgt.so
+* build\intermediates\jniLibs\debug\arm64-v8a\liblept.so
+* build\intermediates\jniLibs\debug\arm64-v8a\libpngt.so
+* build\intermediates\jniLibs\debug\arm64-v8a\libtess.so
+* build\intermediates\jniLibs\debug\armeabi-v7a\
+* build\intermediates\jniLibs\debug\armeabi-v7a\libjpgt.so
+* build\intermediates\jniLibs\debug\armeabi-v7a\liblept.so
+* build\intermediates\jniLibs\debug\armeabi-v7a\libpngt.so
+* build\intermediates\jniLibs\debug\armeabi-v7a\libtess.so
+* build\intermediates\jniLibs\debug\armeabi\
+* build\intermediates\jniLibs\debug\armeabi\libjpgt.so
+* build\intermediates\jniLibs\debug\armeabi\liblept.so
+* build\intermediates\jniLibs\debug\armeabi\libpngt.so
+* build\intermediates\jniLibs\debug\armeabi\libtess.so
+* build\intermediates\jniLibs\debug\mips64\
+* build\intermediates\jniLibs\debug\mips64\libjpgt.so
+* build\intermediates\jniLibs\debug\mips64\liblept.so
+* build\intermediates\jniLibs\debug\mips64\libpngt.so
+* build\intermediates\jniLibs\debug\mips64\libtess.so
+* build\intermediates\jniLibs\debug\mips\
+* build\intermediates\jniLibs\debug\mips\libjpgt.so
+* build\intermediates\jniLibs\debug\mips\liblept.so
+* build\intermediates\jniLibs\debug\mips\libpngt.so
+* build\intermediates\jniLibs\debug\mips\libtess.so
+* build\intermediates\jniLibs\debug\x86\
+* build\intermediates\jniLibs\debug\x86\libjpgt.so
+* build\intermediates\jniLibs\debug\x86\liblept.so
+* build\intermediates\jniLibs\debug\x86\libpngt.so
+* build\intermediates\jniLibs\debug\x86\libtess.so
+* build\intermediates\jniLibs\debug\x86_64\
+* build\intermediates\jniLibs\debug\x86_64\libjpgt.so
+* build\intermediates\jniLibs\debug\x86_64\liblept.so
+* build\intermediates\jniLibs\debug\x86_64\libpngt.so
+* build\intermediates\jniLibs\debug\x86_64\libtess.so
+* build\intermediates\jniLibs\release\
+* build\intermediates\jniLibs\release\arm64-v8a\
+* build\intermediates\jniLibs\release\arm64-v8a\libjpgt.so
+* build\intermediates\jniLibs\release\arm64-v8a\liblept.so
+* build\intermediates\jniLibs\release\arm64-v8a\libpngt.so
+* build\intermediates\jniLibs\release\arm64-v8a\libtess.so
+* build\intermediates\jniLibs\release\armeabi-v7a\
+* build\intermediates\jniLibs\release\armeabi-v7a\libjpgt.so
+* build\intermediates\jniLibs\release\armeabi-v7a\liblept.so
+* build\intermediates\jniLibs\release\armeabi-v7a\libpngt.so
+* build\intermediates\jniLibs\release\armeabi-v7a\libtess.so
+* build\intermediates\jniLibs\release\armeabi\
+* build\intermediates\jniLibs\release\armeabi\libjpgt.so
+* build\intermediates\jniLibs\release\armeabi\liblept.so
+* build\intermediates\jniLibs\release\armeabi\libpngt.so
+* build\intermediates\jniLibs\release\armeabi\libtess.so
+* build\intermediates\jniLibs\release\mips64\
+* build\intermediates\jniLibs\release\mips64\libjpgt.so
+* build\intermediates\jniLibs\release\mips64\liblept.so
+* build\intermediates\jniLibs\release\mips64\libpngt.so
+* build\intermediates\jniLibs\release\mips64\libtess.so
+* build\intermediates\jniLibs\release\mips\
+* build\intermediates\jniLibs\release\mips\libjpgt.so
+* build\intermediates\jniLibs\release\mips\liblept.so
+* build\intermediates\jniLibs\release\mips\libpngt.so
+* build\intermediates\jniLibs\release\mips\libtess.so
+* build\intermediates\jniLibs\release\x86\
+* build\intermediates\jniLibs\release\x86\libjpgt.so
+* build\intermediates\jniLibs\release\x86\liblept.so
+* build\intermediates\jniLibs\release\x86\libpngt.so
+* build\intermediates\jniLibs\release\x86\libtess.so
+* build\intermediates\jniLibs\release\x86_64\
+* build\intermediates\jniLibs\release\x86_64\libjpgt.so
+* build\intermediates\jniLibs\release\x86_64\liblept.so
+* build\intermediates\jniLibs\release\x86_64\libpngt.so
+* build\intermediates\jniLibs\release\x86_64\libtess.so
+* build\intermediates\manifest\
+* build\intermediates\manifest\androidTest\
+* build\intermediates\manifest\androidTest\debug\
+* build\intermediates\manifest\androidTest\debug\AndroidManifest.xml
+* build\intermediates\res\
+* build\intermediates\res\resources-debug-androidTest.ap_
+* build\intermediates\transforms\
+* build\intermediates\transforms\mergeJniLibs\
+* build\intermediates\transforms\mergeJniLibs\debug\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\arm64-v8a\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\arm64-v8a\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\arm64-v8a\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\arm64-v8a\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\arm64-v8a\libtess.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi-v7a\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi-v7a\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi-v7a\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi-v7a\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi-v7a\libtess.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\armeabi\libtess.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips64\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips64\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips64\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips64\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips64\libtess.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\mips\libtess.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86\libtess.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86_64\
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86_64\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86_64\liblept.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86_64\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\debug\folders\2000\3\main\lib\x86_64\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\
+* build\intermediates\transforms\mergeJniLibs\release\folders\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\arm64-v8a\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\arm64-v8a\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\arm64-v8a\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\arm64-v8a\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\arm64-v8a\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi-v7a\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi-v7a\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi-v7a\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi-v7a\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi-v7a\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\armeabi\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips64\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips64\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips64\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips64\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips64\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\mips\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86\libtess.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86_64\
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86_64\libjpgt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86_64\liblept.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86_64\libpngt.so
+* build\intermediates\transforms\mergeJniLibs\release\folders\2000\3\main\lib\x86_64\libtess.so
+* build\outputs\
+* build\outputs\aar\
+* build\outputs\aar\tess-two-debug.aar
+* build\outputs\aar\tess-two-release.aar
+* proguard-rules.pro
+* tess-two.iml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In tess-two:
+* AndroidManifest.xml => tesstwo\src\main\AndroidManifest.xml
+* jni\ => tesstwo\src\main\jni\
+* libs\arm64-v8a\libjpgt.so => tesstwo\src\main\jniLibs\arm64-v8a\libjpgt.so
+* libs\arm64-v8a\liblept.so => tesstwo\src\main\jniLibs\arm64-v8a\liblept.so
+* libs\arm64-v8a\libpngt.so => tesstwo\src\main\jniLibs\arm64-v8a\libpngt.so
+* libs\arm64-v8a\libtess.so => tesstwo\src\main\jniLibs\arm64-v8a\libtess.so
+* libs\armeabi-v7a\libjpgt.so => tesstwo\src\main\jniLibs\armeabi-v7a\libjpgt.so
+* libs\armeabi-v7a\liblept.so => tesstwo\src\main\jniLibs\armeabi-v7a\liblept.so
+* libs\armeabi-v7a\libpngt.so => tesstwo\src\main\jniLibs\armeabi-v7a\libpngt.so
+* libs\armeabi-v7a\libtess.so => tesstwo\src\main\jniLibs\armeabi-v7a\libtess.so
+* libs\armeabi\libjpgt.so => tesstwo\src\main\jniLibs\armeabi\libjpgt.so
+* libs\armeabi\liblept.so => tesstwo\src\main\jniLibs\armeabi\liblept.so
+* libs\armeabi\libpngt.so => tesstwo\src\main\jniLibs\armeabi\libpngt.so
+* libs\armeabi\libtess.so => tesstwo\src\main\jniLibs\armeabi\libtess.so
+* libs\mips64\libjpgt.so => tesstwo\src\main\jniLibs\mips64\libjpgt.so
+* libs\mips64\liblept.so => tesstwo\src\main\jniLibs\mips64\liblept.so
+* libs\mips64\libpngt.so => tesstwo\src\main\jniLibs\mips64\libpngt.so
+* libs\mips64\libtess.so => tesstwo\src\main\jniLibs\mips64\libtess.so
+* libs\mips\libjpgt.so => tesstwo\src\main\jniLibs\mips\libjpgt.so
+* libs\mips\liblept.so => tesstwo\src\main\jniLibs\mips\liblept.so
+* libs\mips\libpngt.so => tesstwo\src\main\jniLibs\mips\libpngt.so
+* libs\mips\libtess.so => tesstwo\src\main\jniLibs\mips\libtess.so
+* libs\x86\libjpgt.so => tesstwo\src\main\jniLibs\x86\libjpgt.so
+* libs\x86\liblept.so => tesstwo\src\main\jniLibs\x86\liblept.so
+* libs\x86\libpngt.so => tesstwo\src\main\jniLibs\x86\libpngt.so
+* libs\x86\libtess.so => tesstwo\src\main\jniLibs\x86\libtess.so
+* libs\x86_64\libjpgt.so => tesstwo\src\main\jniLibs\x86_64\libjpgt.so
+* libs\x86_64\liblept.so => tesstwo\src\main\jniLibs\x86_64\liblept.so
+* libs\x86_64\libpngt.so => tesstwo\src\main\jniLibs\x86_64\libpngt.so
+* libs\x86_64\libtess.so => tesstwo\src\main\jniLibs\x86_64\libtess.so
+* res\ => tesstwo\src\main\res\
+* src\ => tesstwo\src\main\java\
+In Simple-Android-OCR:
+* AndroidManifest.xml => simpleAndroidOCR\src\main\AndroidManifest.xml
+* assets\ => simpleAndroidOCR\src\main\assets\
+* res\ => simpleAndroidOCR\src\main\res\
+* src\ => simpleAndroidOCR\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

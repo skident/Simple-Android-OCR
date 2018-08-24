@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi,armeabi-v7a"
+    api-level="19"
+    density="hdpi"
+    format="8"
+    timestamp="131693890485496"
+    token="-2779239867633141256"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="461" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="867" />
+    <task
+        name="verifier"
+        duration="474" />
+
+    <artifact
+        location="D:\work\android\ocr\tesseract2\Simple-Android-OCR-master\simpleAndroidOCR\build\outputs\apk\simpleAndroidOCR-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="131693890485496"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\work\android\ocr\tesseract2\Simple-Android-OCR-master\simpleAndroidOCR\build\outputs\apk\simpleAndroidOCR-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
