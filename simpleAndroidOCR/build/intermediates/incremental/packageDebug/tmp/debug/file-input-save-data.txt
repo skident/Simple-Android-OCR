@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 24 18:48:35 EEST 2018
+#Fri Aug 24 19:06:47 EEST 2018
 17.baseType=DIRECTORY
 4.path=lib/mips64/libtess.so
 25.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
@@ -15,7 +15,7 @@
 4.baseType=DIRECTORY
 14.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
 16.set=NATIVE_RESOURCE
-count=31
+count=32
 6.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
 13.path=lib/armeabi/libjpgt.so
 6.baseType=DIRECTORY
@@ -30,6 +30,7 @@ count=31
 7.set=NATIVE_RESOURCE
 20.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
 10.set=NATIVE_RESOURCE
+31.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/assets/debug
 10.baseType=DIRECTORY
 15.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
 26.set=NATIVE_RESOURCE
@@ -43,6 +44,7 @@ count=31
 1.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
 1.set=NATIVE_RESOURCE
 26.path=lib/mips64/libpngt.so
+31.set=ASSET
 25.baseType=DIRECTORY
 0.path=lib/armeabi-v7a/liblept.so
 21.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
@@ -52,6 +54,7 @@ count=31
 27.baseType=DIRECTORY
 20.path=lib/mips/libjpgt.so
 16.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
+31.path=tessdata/ukr.traineddata
 8.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/dexMerger/debug/0
 15.path=lib/armeabi/libtess.so
 14.baseType=DIRECTORY
@@ -75,6 +78,7 @@ count=31
 21.path=lib/armeabi-v7a/libpngt.so
 3.baseType=DIRECTORY
 5.set=NATIVE_RESOURCE
+31.baseType=DIRECTORY
 9.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0
 16.path=lib/arm64-v8a/libtess.so
 18.base=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/stripDebugSymbol/debug/0

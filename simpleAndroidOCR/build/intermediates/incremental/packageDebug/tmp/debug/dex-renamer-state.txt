@@ -1,4 +1,4 @@
-#Fri Aug 24 18:48:34 EEST 2018
+#Fri Aug 24 19:06:45 EEST 2018
 base.0=/Users/skident/Documents/Projects.nosync/Android/Simple-Android-OCR/simpleAndroidOCR/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
