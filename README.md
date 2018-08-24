@@ -3,4 +3,3 @@
 For more information, check this tutorial: http://gaut.am/making-an-ocr-android-app-using-tesseract/
 
 Video source: https://www.youtube.com/watch?v=vcTxudz-pTI
-
